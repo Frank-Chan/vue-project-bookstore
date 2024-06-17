@@ -1,5 +1,14 @@
 # vue-project-bookstore
 
+## 项目概述
+    网上商城项目
+### 目录结构说明
+    - src
+    -- router           路由
+    -- store            Vuex状态管理
+    -- vuews            存放页面级组件
+    -- components       存放一般的小组件
+
 ## Project setup
 ```
 npm install
