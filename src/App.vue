@@ -1,18 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <header-search></header-search>
+  <Header/>
+  <Menu/>
+  <RouterView/>
+  <HomeCategoryVue/>
+  <HomeScrollPicVue/>
+  <HomeBooksHot/>
 </template>
 
 <script>
-import HeaderSearch from './components/HeaderSearch.vue'
-// import HelloWorld from './components/HelloWorld.vue'
-
+import Header from './components/Header.vue';
+import HomeCategoryVue from './components/HomeCategory.vue';
+import HomeScrollPicVue from './components/HomeScrollPic.vue';
+import HomeBooksHot from './components/HomeBooksHot.vue';
+import Menu from './components/Menu.vue';
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    HeaderSearch
+    Header,
+    Menu,
+    HomeCategoryVue,
+    HomeScrollPicVue,
+    HomeBooksHot
   }
 }
 </script>
